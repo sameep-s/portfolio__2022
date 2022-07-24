@@ -2,6 +2,7 @@ import {
   About,
   Home,
   Navbar,
+  Projects,
   SocialLinks
 } from "./components";
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Projects />
 
       <SocialLinks />
     </>
