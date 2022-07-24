@@ -3,6 +3,7 @@ import {
   Home,
   Navbar,
   Projects,
+  Skills,
   SocialLinks
 } from "./components";
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Skills />
 
       <SocialLinks />
     </>
