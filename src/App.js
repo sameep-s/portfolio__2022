@@ -1,5 +1,6 @@
 import {
   About,
+  Contact,
   Home,
   Navbar,
   Projects,
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Contact />
 
       <SocialLinks />
     </>
