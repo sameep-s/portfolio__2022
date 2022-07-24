@@ -1,4 +1,5 @@
 import {
+  About,
   Home,
   Navbar,
   SocialLinks
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <About />
 
       <SocialLinks />
     </>
