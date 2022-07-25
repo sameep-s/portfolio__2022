@@ -1,59 +1,60 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+
+import flipKicks from '../assets/portfolio/FlipKick.png';
+import aphro from '../assets/portfolio/aphroCSS.png';
+import sickVids from '../assets/portfolio/sickVids.png';
+import socialMedia from '../assets/portfolio/socialMedia.png';
+import justCrossIt from '../assets/portfolio/justCrossIt.png';
+import IPL from '../assets/portfolio/iplTrivia.png'
 
 const Projects = () => {
 
     const projects = [
         {
             id: 1,
-            linkGithub: "https://github.com/sameep-s?tab=repositories",
-            linkHosted: "",
-            src: arrayDestruct
+            linkGithub: "https://github.com/sameep-s/flipkicks_ecomm",
+            linkHosted: "https://flipkickss.netlify.app/",
+            src: flipKicks
 
         },
 
         {
             id: 2,
-            linkGithub: "https://github.com/sameep-s?tab=repositories",
-            linkHosted: "",
-            src: installNode
+            linkGithub: "https://github.com/sameep-s/Aphro_CSS-Library",
+            linkHosted: "https://aphro-css.netlify.app/",
+            src: aphro
 
         },
 
         {
             id: 3,
-            linkGithub: "https://github.com/sameep-s?tab=repositories",
-            linkHosted: "",
-            src: navbar
+            linkGithub: "https://github.com/sameep-s/sickVids_videoLibrary",
+            linkHosted: "https://sick-vids-video-library.vercel.app/",
+            src: sickVids
 
         },
 
         {
             id: 4,
-            linkGithub: "https://github.com/sameep-s?tab=repositories",
-            linkHosted: "",
-            src: reactParallax
+            linkGithub: "https://github.com/sameep-s/JustPostIt",
+            linkHosted: "https://just-post-it.vercel.app/",
+            src: socialMedia
 
         },
 
         {
             id: 5,
-            linkGithub: "https://github.com/sameep-s?tab=repositories",
-            linkHosted: "",
-            src: reactSmooth
+            linkGithub: "https://github.com/sameep-s/match__buzz",
+            linkHosted: "https://match-buzz.vercel.app/",
+            src: IPL
 
         },
 
         {
             id: 6,
-            linkGithub: "https://github.com/sameep-s?tab=repositories",
-            linkHosted: "",
-            src: reactWeather
+            linkGithub: "https://github.com/sameep-s/justCrossIt",
+            linkHosted: "https://justcrossit.vercel.app/",
+            src: justCrossIt
 
         },
     ]
@@ -73,8 +74,8 @@ const Projects = () => {
 
                         {projects?.map(project =>
 
-                            <div key={project.id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
-                                <img src={project.src} alt="project_image" className='rounded-md ' />
+                            <div key={project.id} className="shadow-md object-fill shadow-gray-600 rounded-lg duration-200 hover:scale-105">
+                                <img src={project.src} alt="project_image" className='rounded-md object-fill ' />
                                 <div className=" flex justify-center items-center">
                                     <button onClick={() => window.open(project.linkGithub, "_blank")} className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 ">Code</button>
                                     <button onClick={() => window.open(project.linkHosted, "_blank")} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>

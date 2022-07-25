@@ -14,8 +14,8 @@ const Home = () => {
                     <div className=" flex flex-col justify-center h-full ">
 
                         <h2 className='text-4xl md:text-7xl font-bold text-white' >I'm a Front-End Developer</h2>
-                        <p className='text-gray-200 py-4 max-w-md'>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate temporibus officia ipsum, exercitationem esse at voluptas nulla asperiores ex saepe vero a? Facilis, nesciunt ad?
+                        <p className='text-gray-200 text-2xl  py-4 max-w-md'>
+                            Hi, welcome to my portfolio.
                         </p>
                         <div className="">
                             <Link to='Projects' smooth duration={500} className="group flex text-white w-fit px-6 py-3 my-2 items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer " >
