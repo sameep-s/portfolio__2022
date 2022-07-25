@@ -11,11 +11,28 @@ const About = () => {
                         <p className='text-4xl font-bold inline border-b-4 border-gray-500' >About</p>
                     </div>
 
-                    <p className='text-xl mt-20  '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis porro ullam dicta vitae perspiciatis odit saepe esse eius provident officiis accusamus deleniti, mollitia a cumque, quaerat fugit aliquid dolore veritatis harum. Quisquam nemo aut culpa sed quasi recusandae optio placeat dicta. Ab facilis beatae quis fugit eaque repellendus hic odit.</p>
+                    <p className='text-xl mt-20  '>
+                        My name is Sameep Sharma and I am a Front-End developer currently looking for Front-End roles.
+                        <br />
+                        <br />
+                        I have a knack for good design and UI and have good knowledge of ReactJS, Typescript, and Javascript concepts such as Closures, Event-Loop, Hoisting, Callbacks, Promises, etc. I have also worked with state management tools such as REDUX and CONTEXT-API and handled asynchronous network calls in Javascript using Async/Await.
+                    </p>
 
                     <br />
 
-                    <p className='text-xl' >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis adipisci quibusdam suscipit pariatur. Tenetur quos expedita illum, laboriosam distinctio ratione, earum voluptatem dolore unde fugiat, fugit incidunt! Fugit, natus corrupti.</p>
+                    <p className='text-xl' >
+
+                        I have created 5 complex projects using ReactJS, Redux, Aphro-CSS(My component library), context-API, react-router, HTML5/CSS3, and Javascript. those Projects which can be found in projects section.
+                        <br />
+
+
+                        These projects are hosted and the source code is available on Github.
+                        <br />
+                        <br />
+                        Please find my attached resume. Feel free to contact me directly should you require anything further.
+                        <br />
+
+                    </p>
 
                 </div>
 
