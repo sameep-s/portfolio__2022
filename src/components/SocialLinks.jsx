@@ -13,8 +13,8 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: "#",
-            style: "rounded-tr-md"
+            href: "https://www.linkedin.com/in/sameep-sharma-9899a214b/",
+            style: "rounded-tr-md bg-blue-800"
 
         },
 
@@ -25,8 +25,8 @@ const SocialLinks = () => {
                     Github <FaGithub size={30} />
                 </>
             ),
-            href: "#",
-
+            href: "https://github.com/sameep-s",
+            style: "bg-neutral-900"
         },
 
         {
@@ -36,7 +36,8 @@ const SocialLinks = () => {
                     Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href: "mailto:foo@gmail.com",
+            href: "mailto:sameep.sharma98@gmail.com",
+            style: "bg-red-700"
 
         },
 
@@ -47,9 +48,8 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "#",
-            style: "rounded-br-md",
-            download: true
+            href: "https://drive.google.com/file/d/1HOAHyLk1IocebVb7fNQOSdST7qFQDx90/view",
+            style: "rounded-br-md bg-cyan-400",
 
         }
     ]
@@ -66,7 +66,6 @@ const SocialLinks = () => {
                             <a
                                 href={link.href}
                                 className=" flex justify-between items-center w-full text-white"
-                                download={link.download}
                                 target="_blank"
                                 rel='noreferrer'
                             >
