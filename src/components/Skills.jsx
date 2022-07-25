@@ -3,9 +3,9 @@ import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png';
-import nextjs from '../assets/nextjs.png';
-import graphql from '../assets/graphql.png';
 import github from '../assets/github.png';
+import redux from '../assets/logoRedux.png'
+import typescript from '../assets/logoTypescript.png'
 import tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
@@ -37,6 +37,15 @@ const Skills = () => {
 
         {
             id: 4,
+            img: typescript,
+            title: 'TYPESCRIPT',
+            style: 'shadow-blue-800'
+
+        },
+
+
+        {
+            id: 5,
             img: reactImage,
             title: 'REACT',
             style: 'shadow-blue-600'
@@ -44,18 +53,10 @@ const Skills = () => {
         },
 
         {
-            id: 5,
-            img: nextjs,
-            title: 'NEXTJS',
-            style: 'shadow-white'
-
-        },
-
-        {
             id: 6,
-            img: graphql,
-            title: 'GRAPHQL',
-            style: 'shadow-pink-400'
+            img: redux,
+            title: 'REDUX',
+            style: 'shadow-white'
 
         },
 
